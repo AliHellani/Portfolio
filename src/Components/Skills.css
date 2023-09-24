@@ -1,0 +1,45 @@
+.skills-container {
+    background-color: black;
+}
+
+.skills-header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 3vh;
+}
+
+.skills-page {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.skill-card {
+    background-color: gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 7em;
+    height: 7em;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.skill-icon {
+    font-size: 80px;
+}
+
+.skill-name {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
